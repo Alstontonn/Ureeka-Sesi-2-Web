@@ -20,7 +20,7 @@ export default function Contact() {
               <input
                 type="text"
                 id="name"
-                placeholder="John Doe"
+                placeholder="John"
                 className="p-3 mt-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500"
               />
             </div>
