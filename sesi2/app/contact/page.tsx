@@ -7,8 +7,8 @@ export default function Contact() {
     <div className="bg-gradient-to-r from-blue-400 to-indigo-500 text-white font-[family-name:var(--font-geist-sans)]">
       <Navbar className="top-0 w-full sticky" />
 
-      <div className="flex flex-col items-center justify-center h-screen py-16">
-        <h1 className="text-5xl font-extrabold mb-4 text-center">Contact Me</h1>
+      <div className="px-10 xl:mt-0 md:mt-5 mt-10 flex flex-col items-center justify-center h-screen py-16">
+        <h1 className=" mt-30 text-3xl font-extrabold mb-4 text-center">Contact Me</h1>
         <p className="text-xl mb-8 text-center">
           I’m always open to new opportunities and collaborations. Feel free to drop me a message below!
         </p>
@@ -58,9 +58,8 @@ export default function Contact() {
           </Button>
         </div>
       </div>
-
       <div className="bg-gray-100 py-16 text-center">
-        <h2 className="text-3xl font-semibold text-gray-800 mb-4">Connect with Me</h2>
+        <h2 className="mt-20 text-3xl font-semibold text-gray-800 mb-4">Connect with Me</h2>
         <div className="flex justify-center gap-8 text-2xl text-gray-800">
           <a href="#" className="hover:text-indigo-600">LinkedIn</a>
           <a href="#" className="hover:text-indigo-600">GitHub</a>
